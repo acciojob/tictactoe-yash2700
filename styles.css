@@ -53,21 +53,21 @@ h1{
     justify-content: center;
     align-items: center;
 }
-.btn-cont {
+.btn {
     display: flex;
     justify-content: flex-start;
     gap: 100px;
 }
-.btn-cont > button {
+.btn > button {
     height: 30px;
     border-radius: 5px;
     background-color: #2294ED;
     color: white;
     width: 100px;
 }
-.btn-cont button:first-child {
+.btn button:first-child {
     background-color: red;
 }
-.btn-cont button:last-child {
+.btn button:last-child {
     background-color: rgb(37, 211, 37);
 }

@@ -4,7 +4,7 @@ var player1, player2;
 button[0].addEventListener('click', submitFunc);
 
 function submitFunc() {
-    const player = document.querySelectorAll('div>input');
+    let player = document.querySelectorAll('div>input');
     
     player1 = player[0].value;
     player2 = player[1].value;
